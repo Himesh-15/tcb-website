@@ -1,0 +1,93 @@
+body{
+  padding: 2%;
+  background-color: rgb(8, 39, 68);
+}
+
+#main{
+  box-shadow:  0 0 10px #698399, 0 0 40px  #576d80 , 0 0 80px #407daf;
+  transition-delay: 0.75s;
+  border-radius: 3%;
+  background-color: rgb(14, 28, 49);
+  align-items: center;   
+}
+#navbar li {
+  text-shadow: #627483;
+  padding: 20px;
+  display: inline;
+  list-style-type: none; 
+
+  color: #305c80;
+  position: relative;
+  font-size: 1em;
+  letter-spacing: 10px;
+  color: #0e3742;
+  
+  width: 100%;
+  text-align: center;
+  -webkit-box-reflect: linear-gradient(transparent,rgb(9, 26, 46));
+  outline: none;
+  animation: animate 5s linear infinite;
+}
+@keyframes animate {
+  0%,18%,20%,50%,60%,65%,80%,90%,92% {
+      color: #0e3742;
+      text-shadow: none;
+  }
+  18%,20%,50%,60%,65%,80%,90%,92%,100% {
+      color: white;
+      text-shadow: 0 0 10px #03bcf4,
+                  0 0 20px #03bcf4,
+                  0 0 40px #03bcf4,
+                  0 0 80px #03bcf4,
+                  0 0 160px #03bcf4;
+  }
+}
+
+
+#navbar a {
+  font-family: 'Courier New', Courier, monospace;
+  color:rgb(97, 132, 172);
+  font-size: 25px;
+  text-decoration:solid;
+  text-align: center;
+  
+}
+#navbar a :hover{
+  color: white;
+  text-decoration:double;
+  font-size: 30px;
+  text-align: center; 
+}
+#h{
+  width: 500px;
+  margin-left: 30%;
+ 
+}
+#head{
+  color: #305c80;
+  position: relative;
+  font-size: 2em;
+  letter-spacing: 15px;
+  color: #0e3742;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  -webkit-box-reflect:
+  linear-gradient(transparent,rgb(9, 26, 46));
+  outline: none;
+  animation: animate 5s linear infinite;
+}
+@keyframes animate {
+  0%,18%,20%,50%,60%,65%,80%,90%,92% {
+      color: #0e3742;
+      text-shadow: none;
+  }
+  18%,20%,50%,60%,65%,80%,90%,92%,100% {
+      color: white;
+      text-shadow: 0 0 10px #03bcf4,
+                  0 0 20px #03bcf4,
+                  0 0 40px #03bcf4,
+                  0 0 80px #03bcf4,
+                  0 0 160px #03bcf4;
+  }
+}
